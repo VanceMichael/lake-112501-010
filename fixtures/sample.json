@@ -1,5 +1,30 @@
 {
   "说明": "本地合成演练资料",
-  "业务对象": "多归属桥接事实的时态分配与总量守恒",
-  "记录": []
+  "业务对象": "动态定价事实的来源权重与报价回溯",
+  "记录": [
+    {
+      "sku": "sku-1",
+      "channel": "store",
+      "observed_at": "2026-10-14T09:00:00Z",
+      "source": "supplier",
+      "weight_version": "w1",
+      "price": "10.00"
+    },
+    {
+      "sku": "sku-1",
+      "channel": "store",
+      "observed_at": "2026-10-14T09:05:00Z",
+      "source": "index",
+      "weight_version": "w1",
+      "price": "10.20"
+    },
+    {
+      "sku": "sku-2",
+      "channel": "web",
+      "observed_at": "2026-10-14T09:10:00Z",
+      "source": "promo",
+      "weight_version": "w2",
+      "price": "8.00"
+    }
+  ]
 }
